@@ -4,7 +4,14 @@ Created on Tue Jun 28 17:23:27 2022
 
 @author: lizhiwei
 """
-
+"""
+参考网址：
+https://www.bilibili.com/video/BV1gy4y1q7M5?spm_id_from=333.999.0.0&vd_source=bb4c4d428098cdeb66fdd2a88cd800b7
+https://zhuanlan.zhihu.com/p/104475016
+https://blog.csdn.net/ting_qifengl/article/details/113039454?ops_request_misc=&request_id=&biz_id=102&utm_term=pytorch%E6%90%AD%E5%BB%BAlstm&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-7-113039454.nonecase&spm=1018.2226.3001.4187
+https://blog.csdn.net/liuqihang11/article/details/120412061
+注意事项：尽量在有英伟达独显的电脑上训练模型，CPU运算速度特别慢，pytorch不要直接通过pip安装，具体安装参考 https://b23.tv/TSj154f
+"""
 
 import numpy as np
 import torch
